@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ash the Cat's Blog</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+   <div id="bio">
+      <h1 class="hideMe">Welcome to Ash's Blog</h1>
+      <p>Hello! You've stumbled upon the blog of the most talented kitty in the world.</p> 
+      <map name="password">
+         <area shape="rect" coords="280,114,290,122" title="secret PW: kitton">
+      </map>
+      <img src="images/ashsmall.jpg" alt="Me sitting on some guy's shoulder." usemap=#password>
+      <p>I enjoy running around like a lunatic, climbing humans, attacking plants and web design.  My roomates will sometimes leave me bottlecaps which is really amazing, cause I carry them in my mouth over to the bathtub, drop them in there and then bat them all over the place for long periods of time.</p>
+      <p>One thing that is very apparent to me is that if you are a cat and are into web design, other professionals tend to not take you seriously.  This is why I've decided to create this blog.  Here you will be able to follow me and my various projects in software, as I complete them.  My first one will be to create a blockchain and a cryptocurrency that directly competes with DogeCoin, that is to say, does very little aside from attract memelords and pump and dump schemes. But why should DOGS have all the fun? Move over Doge, here comes AshCoin!</p>
+      <p>And another thing, who decided <span id="laser">lasers</span> are fair? My next project will be a way to finally catch those annoying, red devils.</p>
+   </div>
+
+   <div>
+      <h3>Let's talk about cat food. <span id="toggler">Click me</span> to toggle</h3>
+      <ul>
+         <li>I like white fish a lot.</li>
+         <li>I also like treats, and usually only get them when I'm asked to do something stupid like sit down or stand on two legs</li>
+         <li>My roommates programmed a machine to feed me, but it doesn't dispense wet food so I hate it.</li>
+         <li>I love whipped cream and can hear a can of it being shaken from across the county.</li>
+      </ul>
+   </div>
+
+   <div>
+      <h3>Programmer Ash's "If-then's" of being a cat. Hover to reveal</h3>
+      <table>
+         <thead>
+            <tr>
+               <th>If</th>
+               <th>Then</th>
+               <th>Notes</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td class="revealer1">my belly is rubbed, </td>
+               <td class="hideMe1">I kick and bite. </td>
+               <td class="hideMe1">Sucka had it coming, no one touches the belly</td>
+            </tr>
+            <tr>
+               <td class="revealer2">I hear a noise, </td>
+               <td class="hideMe2" >I attack the source of the noise. </td>
+               <td class="hideMe2">Noises might be food</td>
+            </tr>
+            <tr>
+               <td class="revealer3">I encounter running water, </td>
+               <td class="hideMe3">I lick it, paw it and then completely freak out. </td>
+               <td class="hideMe3">liquids are a mystery to me</td>
+            </tr>
+            <tr>
+               <td class="revealer4">You find my password, </td>
+               <td class="hideMe4">I will give you a treat. </td>
+               <td class="hideMe4">Hint: Your cursor smells funny!</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div>
+      <h3>Weather tonight: incoming form storm</h3>
+      <p id="formHead"><a href="#formHead">So here's one of my roommates' YouTube page</a>, what do you think of it?</p>
+         <form>
+            <label>
+               <input type="radio" name="tubefeels" value="love">I love it
+            </label>
+            <label>
+               <input type="radio" name="tubefeels" value="terrible">It was terrible
+            </label>
+            <label>
+               <input type="radio" name="tubefeels" value="disinterest">I really don't feel like checking it out
+            </label>
+            <br><br>
+
+            <label class="hideMe love">
+               Glad to hear it! What was your favorite video? <input type="text" name="fav">
+            </label>
+            <br>
+
+            
+            <div class="hideMe terrible">
+               <p>Oh you thought it was terrible, please select all that apply to yourself:</p>
+               <label>
+                  <input type="checkbox" id="terrible1" value="taste">I have bad taste
+               </label>
+               <br>
+               <label>
+                  <input type="checkbox" id="terrible2" value="entertained">I'd rather be miserable
+               </label>
+               <br>
+               <label class="revealed">
+                  <input type="checkbox" id="terrible3" value="anything">I don't like anything
+               </label>
+            </div>
+            <br>
+
+            <div class="hideMe indif">
+               <p>Why not? please select a reason </p>
+                  <select name="indifferent">
+                  <option value="none">Click to select</option>
+                  <option value="impatient">I'm impatient</option>
+                  <option value="scared">I'm scared</option>
+                  <option value="bored">I prefer boredom</option>
+               </select>
+            </div>
+            <br>
+
+            <label>
+               Lastly, if you found my password, please enter it here:<input type="text" name="pw">
+            </label>
+            <br>
+
+            <p>Once you are finished, please click the button: <input type="Submit" value="Submit"></p>
+         </form>
+   </div>
+
+</body>
+<script src="main.js"></script>
+</html>
